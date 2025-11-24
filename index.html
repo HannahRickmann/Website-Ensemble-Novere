@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>  <!-- Seitentitel im Browser -->
+    <meta charset="utf-8">
+    <meta name = "format-detection" content = "telephone=no" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/jquery.mobilemenu.js"></script>
+
+    <script src="js/jquery.fancybox-1.3.4.js"></script>
+    <script src="js/owl.carousel.js"></script>
+         <!--[if (gt IE 9)|!(IE)]><!-->
+     <script src="js/jquery.mobile.customized.min.js"></script>
+     <!--<![endif]-->
+    <script>
+        $(document).ready(function(){
+            var owl = $("#owl"); 
+
+            owl.owlCarousel({
+                items : 1, //10 items above 1000px browser width
+                itemsDesktop : [995,1], //5 items between 1000px and 901px
+                itemsDesktopSmall : [767, 1], // betweem 900px and 601px
+                itemsTablet: [700, 1], //2 items between 600 and 0
+                itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+                navigation : false,
+                pagination :  true
+            });
+
+            var owl = $("#owl2"); 
+
+            owl.owlCarousel({
+                items : 4, //10 items above 1000px browser width
+                itemsDesktop : [995,4], //5 items between 1000px and 901px
+                itemsDesktopSmall : [767, 1], // betweem 900px and 601px
+                itemsTablet: [700, 1], //2 items between 600 and 0
+                itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+                navigation : true,
+                pagination :  false
+            });
+
+            $("a.various").fancybox();
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+    </script>
+</head>
+
+<body>
+<div id="page-wrapper">
+
+<!--==============================header=================================-->
+<header id="header">
+    <section class="bg">
+        <div class="container_12">
+            <div class="grid_12">
+                <section class="clearfix top_nav">
+                    <nav class="horizontal-nav full-width horizontalNav-notprocessed">
+                        <!-- ======= Navigation (Menü) ======= -->
+                        <ul class="sf-menu">
+                            <li class="current"><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">Über Uns</a> </li>
+                            <li><a href="concerts.html">Konzerte</a> </li> 
+                            <li><a href="gallery.html">Galerie</a> </li>
+                            <li><a href="contact.html">Kontakt</a> </li>
+                        </ul>
+                    </nav><div class="clear"></div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <div class="container_12">
+        <div class="grid_12 bg3">
+            <div class="row">
+                <div class="grid_11 alpha">
+                    <h1><a href="index.html"><img src="images/logo.png" alt="" style="max-height:100px; width:auto;"></a></h1>  <!-- TODO: Logo austauschen -->
+                </div>
+                <div class="grid_1 omega"> 
+                    <div class="socials">
+                        <a href="https://www.instagram.com/vokalensemble.novere/" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--===================content====================-->
+
+<div id="content">
+    <div class="container_12">
+        <h2>Willkommen!</h2>
+        <p>
+            Wir sind ein Frauenensemble aus Heidelberg, bestehend aus 10 bis 15 Sängerinnen. 
+            Unser Repertoire reicht von klassischer Chormusik bis zu modernen Arrangements. 
+            Mit Leidenschaft und Freude bringen wir meist zwei mal im Jahr Musik in die Kirchen und Bühnen in und um Heidelberg.
+            <a href="aboutus.html" class="a7">Erfahre mehr über uns!</a>
+        </p>
+        <p>
+            Wir freuen uns, dass du da bist und hoffen, dich bald bei einem unserer Konzerte zu sehen.
+        </p>
+        <div class="row">
+            <div class="grid_9 alpha">
+                <div class="slider-box">
+                    <div id="owl" class="clearfix">
+                        <!-- ======= Slider ======= -->
+                        <div class="item">
+                            <div class="div1">16. November 2025: Probenwochenende</div>
+                            <div class="clear"></div>
+                            <img src="images/photos/2025-11-16_Gruppenfoto.JPG" alt="" class="">
+                        </div>
+                        <div class="item">
+                            <div class="div1">17. Juli 2025: Witness of so much majesty</div>
+                            <div class="clear"></div>
+                            <img src="images/photos/2025-07-17_Konzertfoto.jpg" alt="" class="">
+                        </div>
+                        <div class="item">
+                            <div class="div1">09. Juli 2025: Witness of so much majesty</div>
+                            <div class="clear"></div>
+                            <img src="images/photos/2025-07-09_Gruppenfoto.JPG" alt="" class="">
+                        </div>
+                        
+                        <div class="item">
+                            <div class="div1">29. Juli 2024: Benefizkonzert in Berlin</div>
+                            <div class="clear"></div>
+                            <img src="images/photos/2024-06-29_Gruppenfoto_Berlin.JPG" alt="" class="">
+                        </div>
+
+                        <div class="item">
+                            <div class="div1">09. Dezember 2023: Willkum Jul!</div>
+                            <div class="clear"></div>
+                            <img src="images/photos/2023-12_Gruppenfoto.jpeg" alt="" class="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_3 omega">
+                <a class="a1" href="concerts.html">
+                    <div class="div1">
+                        Nächstes Konzert:
+                        <p>Regina Coeli am 19.12. in Leutershausen und 20.12. in Heidelberg.</p>
+                        <img src="images/posters/2025_Winter.png" alt="Poster Nächstes Konzert" >
+                    </div>
+                </a>
+                <!--
+                <div class="div1">
+                    <a class="a2" href="concerts.html">  More Info & Dates </a>
+                </div> -->
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!--===================footer=====================-->
+
+<footer>
+    <div class="container_12">
+        <div class="grid_3 flt1">
+            <ul class="list1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">Über Uns</a></li>
+                <li><a href="concerts.html">Konzerte</a></li>
+                <li><a href="contact.html">Kontakt und Impressum</a></li>
+            </ul>
+        </div>
+        
+        <div class="grid_3">
+            <h1><a href="index.html"><img src="images/logo_footer.png" alt=""></a></h1> <!-- TODO: Logo austauschen -->
+            <p class="privacy">&copy; <span id="copyright-year"></span>&nbsp;|&nbsp;<a href="contact.html">Vokalensemble Novere i.Gr.  Alle Rechte vorbehalten.</a></p><!--{%FOOTER_LINK} -->
+        </div>
+    </div>
+</footer>
+
+</div>
+
+</body>
+
+</html>
