@@ -323,7 +323,8 @@ time.page3 span{
   background: #ffffff;
   padding: 12px 40px;
   border-radius: 6px;
-  margin: 12px 200px;
+  margin: 12px auto;
+  max-width: 500px;
   text-align: left;
   font-family: "Courier New", monospace;
   border: 1px solid #e0e0e0;
